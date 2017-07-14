@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/anaResim"
+                android:minHeight="300px"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <ListView
+                android:id="@+id/resimler"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/konutTip"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/fiyat"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/alan"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/odaSayisi"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/il_d"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/binaYasi"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/bulunduguKat"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/açıklama"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
